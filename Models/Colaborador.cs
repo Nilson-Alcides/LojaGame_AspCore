@@ -12,21 +12,21 @@ namespace LojaGame_AspCore.Models
         public string NomeColaborador { get; set; }
 
         [Display(Name = "CPF")]
-        [Required(ErrorMessage = "O CPF é obrigatorio")]
+        [Required(ErrorMessage = "O CPF é obrigatório")]
         public string CPFColaborador { get; set; }
 
         [Display(Name = "Celular")]
-        [Required(ErrorMessage = "O Celular é obrigatorio")]
+        [Required(ErrorMessage = "O Celular é obrigatório")]
         public string TelefoneColaborador { get; set; }
 
         [Display(Name = "Email")]
         [EmailAddress(ErrorMessage = " O Email não é valido")]
-        [RegularExpression(".+\\@.+\\..+", ErrorMessage = "Informe um email válido...")]
+        [RegularExpression(".+\\@.+\\..+", ErrorMessage = "Informe um e-mail válido...")]
         public string EmailColaborador { get; set; }
 
         [Display(Name = "Senha")]
         [DataType(DataType.Password)]
-        [Required(ErrorMessage = "O senha é obrigatorio")]
+        [Required(ErrorMessage = "O senha é obrigatório")]
         [StringLength(10, MinimumLength = 6, ErrorMessage = "A senha deve ter entre 6 e 10 caracteres")]
         public string SenhaColaborador { get; set; }
 

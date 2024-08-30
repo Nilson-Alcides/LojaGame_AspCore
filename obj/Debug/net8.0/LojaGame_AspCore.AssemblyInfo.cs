@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LojaGame_AspCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b92426e280b64c92632dbc0811542074bedc2f7e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d55028c8f0f3b910d4b409d0467e08038e0308a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("LojaGame_AspCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LojaGame_AspCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
