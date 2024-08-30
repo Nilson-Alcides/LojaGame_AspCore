@@ -1,0 +1,1 @@
+# LojaGame_AspCore
